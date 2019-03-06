@@ -1,0 +1,4 @@
+<view class="item">
+  <image src="{{imgSrc}}" mode="widthFix" style="width:100%;"></image>
+  <!--<image src="../../image/ld.gif" style="width:100px; height:100px;"></image>-->
+</view>

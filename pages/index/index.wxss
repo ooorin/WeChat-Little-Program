@@ -1,0 +1,129 @@
+.header{
+  border-left-width:0px;
+  border-block-end-style: solid;
+  border-block-end-color: rgb(19, 172, 32);
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item{
+    flex-grow:1;
+    height: 30%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    padding: 0 2%;
+}
+
+.login-item{
+    width: 90%;
+    margin-top: 30rpx;
+    border-bottom: 1px solid #eee;
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20rpx;
+}
+
+ .bottom{
+     border-bottom: 0px;
+}
+
+.login-item-info{
+    font-size: 15px;
+    color: #888;
+     padding-bottom: 20rpx;
+}
+
+
+.login-pwd text{
+    height: 100%;
+    font-size: 14px;
+    color: #888;
+    display: flex;
+     
+}
+.login-btn{
+    width: 80%;
+    color: white;
+    background-color: green;
+    border-radius: 0;
+    font-size: 14px;
+
+}
+
+.login-btn:hover{
+    width: 80%;
+    color: white;
+    border-radius: 0;
+
+}
+.display{
+  font-size: 16px;
+  color: #888;
+  padding-bottom: 20rpx;
+  margin-top: 30rpx;
+  align-items: center;
+}
+.displaynum{
+  font-size: 20px;
+  color: #319ace;
+  padding-bottom: 20rpx;
+   margin-top: 30rpx;
+   align-items: center;
+}
+
+.displayThin{
+  font-size: 40px;
+  color: #888;
+  padding-bottom: 20rpx;
+   margin-top: 30rpx;
+   align-items: center;
+}
+.displayNormal{
+  font-size: 40px;
+  color: greenyellow;
+  padding-bottom: 20rpx;
+   margin-top: 30rpx;
+   align-items: center;
+}
+.displayOverWeight{
+  font-size: 40px;
+  color: orange;
+  padding-bottom: 20rpx;
+   margin-top: 30rpx;
+   align-items: center;
+}
+.displayFat{
+  font-size: 40px;
+  color: orangered;
+  padding-bottom: 20rpx;
+   margin-top: 30rpx;
+   align-items: center;
+}
+.swiper-box{
+  width:100%;
+  height:320px;
+  display: block;
+}
+.preview {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.9);
+  position: absolute;
+  z-index: 2;
+}
+.share{
+  position: absolute;
+  bottom: 100rpx;
+  width: 40%;
+  left: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+}

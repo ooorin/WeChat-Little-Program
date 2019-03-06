@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view>
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}" indicator-active-color="#f3bb1d" autoplay='{{autoPlay}}' interval='{{interval}}' duration='{{duration}}' circular='{{circular}}' class='swiper-box' mode='widthFix' >  
+          <block wx:for="{{imgUrls}}" wx:key="imgUrls">  
+            <swiper-item>  
+              <image src="{{item}}"  mode='widthFix' style='width:100%; overflow:show;'/>  
+            </swiper-item>  
+          </block>  
+    </swiper>
+  </view>
+</view>
+
+<view class="item">
+       <view class="login-item">
+       	    <view class="login-item-info">请告诉腾小飞你的名字：</view>
+            <view><input type="text" maxlength="20" bindinput="getUserName" /></view>
+       </view>
+       <view wx:if="{{inputComplete}}" class="display">
+       <button class='share' type='primary' bindtap='testClick'>点击获取</button>
+       </view>
+</view>
